@@ -5,8 +5,6 @@ import db from "./db";
 const port = process.env.PORT || 5000;
 const app = express();
 
-console.log(process.env.PORT)
-
 const start = async () => {
   try {
     await db.authenticate();
