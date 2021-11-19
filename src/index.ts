@@ -18,5 +18,5 @@ const start = async () => {
 start();
 
 app.get("/", (_, res) => {
-  res.status(200).send();
+  res.status(200).send("hello");
 });
